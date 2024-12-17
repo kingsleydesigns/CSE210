@@ -19,7 +19,5 @@ class Program
        Console.WriteLine(Write1.GetSummary());
        Console.WriteLine(Write1.GetWritingInformation());
        Console.WriteLine();
-
-       
     }
 }
