@@ -8,6 +8,6 @@ public class Running : Activity
     }
 
     public override double GetDistance() => _distance;
-    public override double GetSpeed() => (GetDistance() / Minutes) * 60;
-    public override double GetPace() => Minutes / GetDistance();
+    public override double GetSpeed() => (GetDistance() / minutes) * 60;
+    public override double GetPace() => minutes / GetDistance();
 }
